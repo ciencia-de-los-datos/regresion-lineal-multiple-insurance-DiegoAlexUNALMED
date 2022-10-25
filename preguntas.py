@@ -32,10 +32,7 @@ def pregunta_01():
     # Retorne `X` y `y`
     return X, y
 
-"""
-    Preparación de los conjuntos de datos.
-    -------------------------------------------------------------------------------------
-    """
+
 
 """
     Especificación del pipeline y entrenamiento
@@ -46,9 +43,12 @@ def pregunta_01():
    -------------------------------------------------------------------------------------
    """
 
-"""
+
 def pregunta_02():
-    
+    """
+    Preparación de los conjuntos de datos.
+    -------------------------------------------------------------------------------------
+    """
 
     # Importe train_test_split
     from sklearn.model_selection import train_test_split
@@ -68,7 +68,7 @@ def pregunta_02():
     # Retorne `X_train`, `X_test`, `y_train` y `y_test`
     return X_train, X_test, y_train, y_test
 
-
+"""
 def pregunta_03():
     
 
