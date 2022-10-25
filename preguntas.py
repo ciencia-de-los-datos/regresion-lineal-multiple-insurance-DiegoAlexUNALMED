@@ -32,7 +32,7 @@ def pregunta_01():
     # Retorne `X` y `y`
     return X, y
 
-
+"""
 def pregunta_02():
     """
     Preparación de los conjuntos de datos.
@@ -173,3 +173,4 @@ def pregunta_04():
 
    # Retorne el error cuadrático medio para entrenamiento y prueba
    return mse_train, mse_test
+"""
