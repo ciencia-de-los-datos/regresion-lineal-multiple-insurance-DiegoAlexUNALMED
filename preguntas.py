@@ -141,35 +141,35 @@ def pregunta_03():
 
 def pregunta_04():
    """
-    Evaluación del modelo
-    -------------------------------------------------------------------------------------
-    """
+   Evaluación del modelo
+   -------------------------------------------------------------------------------------
+   """
 
-    # Importe mean_squared_error
-    from sklearn.metrics import mean_squared_error
+   # Importe mean_squared_error
+   from sklearn.metrics import mean_squared_error
 
-    # Obtenga el pipeline optimo de la pregunta 3.
-    gridSearchCV = pregunta_03()
+   # Obtenga el pipeline optimo de la pregunta 3.
+   gridSearchCV = pregunta_03()
 
-    # Cargue las variables.
-    X_train, X_test, y_train, y_test = pregunta_02()
+   # Cargue las variables.
+   X_train, X_test, y_train, y_test = pregunta_02()
 
-    # Evalúe el modelo con los conjuntos de entrenamiento y prueba.
-    y_train_pred = gridSearchCV.predict(X_train)
-    y_test_pred = gridSearchCV.predict(X_test)
+   # Evalúe el modelo con los conjuntos de entrenamiento y prueba.
+   y_train_pred = gridSearchCV.predict(X_train)
+   y_test_pred = gridSearchCV.predict(X_test)
 
-    # Compute el error cuadratico medio de entrenamiento y prueba. Redondee los
-    # valores a dos decimales.
+   # Compute el error cuadratico medio de entrenamiento y prueba. Redondee los
+   # valores a dos decimales.
 
-    mse_train = mean_squared_error(
-        y_train_pred,
-        y_train,
-    ).round(2)
+   mse_train = mean_squared_error(
+       y_train_pred,
+       y_train,
+   ).round(2)
 
-    mse_test = mean_squared_error(
-        y_test_pred,
-        y_test,
-    ).round(2)
+   mse_test = mean_squared_error(
+       y_test_pred,
+       y_test,
+   ).round(2)
 
-    # Retorne el error cuadrático medio para entrenamiento y prueba
-    return mse_train, mse_test
+   # Retorne el error cuadrático medio para entrenamiento y prueba
+   return mse_train, mse_test
