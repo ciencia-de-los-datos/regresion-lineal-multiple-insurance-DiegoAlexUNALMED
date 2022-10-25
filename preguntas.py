@@ -33,11 +33,22 @@ def pregunta_01():
     return X, y
 
 """
-def pregunta_02():
-    """
     Preparación de los conjuntos de datos.
     -------------------------------------------------------------------------------------
     """
+
+"""
+    Especificación del pipeline y entrenamiento
+    -------------------------------------------------------------------------------------
+    """
+"""
+   Evaluación del modelo
+   -------------------------------------------------------------------------------------
+   """
+
+"""
+def pregunta_02():
+    
 
     # Importe train_test_split
     from sklearn.model_selection import train_test_split
@@ -59,10 +70,7 @@ def pregunta_02():
 
 
 def pregunta_03():
-    """
-    Especificación del pipeline y entrenamiento
-    -------------------------------------------------------------------------------------
-    """
+    
 
     # Importe make_column_selector
     # Importe make_column_transformer
@@ -140,10 +148,7 @@ def pregunta_03():
 
 
 def pregunta_04():
-   """
-   Evaluación del modelo
-   -------------------------------------------------------------------------------------
-   """
+   
 
    # Importe mean_squared_error
    from sklearn.metrics import mean_squared_error
