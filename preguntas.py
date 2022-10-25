@@ -32,18 +32,6 @@ def pregunta_01():
     # Retorne `X` y `y`
     return X, y
 
-
-
-"""
-    Especificación del pipeline y entrenamiento
-    -------------------------------------------------------------------------------------
-    """
-"""
-   Evaluación del modelo
-   -------------------------------------------------------------------------------------
-   """
-
-
 def pregunta_02():
     """
     Preparación de los conjuntos de datos.
@@ -67,6 +55,15 @@ def pregunta_02():
 
     # Retorne `X_train`, `X_test`, `y_train` y `y_test`
     return X_train, X_test, y_train, y_test
+
+"""
+    Especificación del pipeline y entrenamiento
+    -------------------------------------------------------------------------------------
+    """
+"""
+   Evaluación del modelo
+   -------------------------------------------------------------------------------------
+   """
 
 """
 def pregunta_03():
