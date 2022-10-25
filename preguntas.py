@@ -56,18 +56,12 @@ def pregunta_02():
     # Retorne `X_train`, `X_test`, `y_train` y `y_test`
     return X_train, X_test, y_train, y_test
 
-"""
+
+def pregunta_03():
+    """
     Especificación del pipeline y entrenamiento
     -------------------------------------------------------------------------------------
     """
-"""
-   Evaluación del modelo
-   -------------------------------------------------------------------------------------
-   """
-
-"""
-def pregunta_03():
-    
 
     # Importe make_column_selector
     # Importe make_column_transformer
@@ -143,7 +137,12 @@ def pregunta_03():
    # Retorne el mejor modelo
    return gridSearchCV
 
+"""
+   Evaluación del modelo
+   -------------------------------------------------------------------------------------
+   """
 
+"""
 def pregunta_04():
    
 
